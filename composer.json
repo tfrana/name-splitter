@@ -1,0 +1,21 @@
+{
+    "name": "tfrana/name-splitter",
+    "description": "PHP Service to automatically split name from string to titles, first name, middle names and family name",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^11.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tfrana\\NameSplitter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomáš Frána",
+            "email": "tfrana.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}
